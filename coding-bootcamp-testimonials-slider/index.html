@@ -8,18 +8,13 @@
 
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 
   <div class="container">
     <div class="left">
-      <div class="testimonial testimonial-1">
+      <div id="testimonial-1" class="testimonial">
         <div class="quotes-bg">
           <img src="images/pattern-quotes.svg" alt="Quotes" />
         </div>
@@ -30,7 +25,10 @@
         </h1>
         <p><span class="strong">Tanya Sinclair</span>UX Engineer</p>
       </div>
-      <div class="testimonial testimonial-2 hidden">
+      <div id="testimonial-2" class="testimonial hidden">
+        <div class="quotes-bg">
+          <img src="images/pattern-quotes.svg" alt="Quotes" />
+        </div>
         <h1>
           “ If you want to lay the best foundation possible I’d recommend taking this course.
           The depth the instructors go into is incredible. I now feel so confident about
@@ -46,23 +44,25 @@
       <div class="bg">
         <img src="images/pattern-bg.svg" alt="BG" />
       </div>
-      <div class="picture">
-        <img src="images/image-tanya.jpg" alt="Tanya" />
-      </div>
-      <div class="icons">
-        <div class="icon icon-previous">
-          <img src="images/icon-prev.svg" alt="Prvious" />
+      <div id="testimonial-1-picture" class="testimonial-picture">
+        <div class="picture">
+          <img src="images/image-tanya.jpg" alt="Tanya" />
         </div>
-        <div class="icon icon-next">
-          <img src="images/icon-next.svg" alt="Next">
+      </div>
+      <div id="testimonial-2-picture" class="testimonial-picture hidden">
+        <div class="picture">
+          <img src="images/image-john.jpg" alt="Tanya" />
         </div>
       </div>
     </div>
   </div>
-
-<!--  <div class="attribution">-->
-<!--    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.-->
-<!--    Coded by <a href="#">Your Name Here</a>.-->
-<!--  </div>-->
+  <div class="icons" onclick="toggleTestimonial()">
+    <div id="previous-btn" class="icon icon-previous">
+      <img src="images/icon-prev.svg" alt="Prvious" />
+    </div>
+    <div id="next-btn" class="icon icon-next">
+      <img src="images/icon-next.svg" alt="Next">
+    </div>
+  </div>
 </body>
 </html>

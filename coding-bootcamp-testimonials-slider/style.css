@@ -23,7 +23,7 @@ body {
 
 .left {
     padding: 0 0 0 160px;
-    z-index: 2;
+    z-index: 1;
     width: 70%;
 }
 
@@ -50,8 +50,7 @@ body {
 
 .testimonial > h1 {
     font-weight: 300;
-    max-width: 630px;
-    z-index: 2;
+    max-width: 635px;
     margin-bottom: 50px;
 }
 
@@ -82,13 +81,12 @@ body {
 }
 
 .icons {
+    cursor: pointer;
     display: flex;
-    margin: 0;
     padding: 0;
-    margin-left: 60px;
     width: 110px;
-    transform: translateY(-50%);
-    background: transparent;
+    position: absolute;
+    transform: translate(55vw, -50%);
 }
 
 .icon {
@@ -97,7 +95,6 @@ body {
     height: 55px;
     display: flex;
     justify-content: center;
-    z-index: 2;
     box-shadow: 0 19px 38px -15px rgba(0,0,0,0.30);
 }
 
