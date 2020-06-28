@@ -7,13 +7,16 @@ function subscribe() {
     const emailElement = document.getElementById('email')
     const errorMessageElement = document.getElementById('error-message')
     const successMessageElement = document.getElementById('success-message')
+    const errorIconElement = document.getElementById('error-icon')
     if (!isValidEmail(emailElement.value)) {
         emailElement.classList.add('error-input')
         errorMessageElement.classList.remove('hidden')
         successMessageElement.classList.add('hidden')
+        errorIconElement.classList.remove('hidden')
     } else {
         emailElement.classList.remove('error-input')
         errorMessageElement.classList.add('hidden')
+        errorIconElement.classList.add('hidden')
         emailElement.value = ""
         emailElement.blur()
         successMessageElement.classList.remove('hidden')

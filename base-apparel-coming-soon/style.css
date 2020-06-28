@@ -109,12 +109,26 @@ img {
 
 .icon-arrow {
     border-radius: 10rem;
+    box-shadow: 0 19px 38px -15px rgba(0,0,0,0.30);
 }
 
 .icon-arrow:hover {
     transform:scale(1.1, 1.1);
     -webkit-transform:scale(1.1, 1.1);
     -moz-transform:scale(1.1, 1.1);
+}
+
+.subscribe {
+    position: relative;
+}
+
+.icon-error {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -167,6 +181,10 @@ img {
         margin-right: auto;
         margin-left: -25px;
     }
+
+    .icon-error {
+        transform: translate(-24vw, 8px);
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -218,6 +236,10 @@ img {
         background-color: var(--desaturated-red);
         cursor: pointer;
         margin-left: -30px;
+    }
+
+    .icon-error {
+        transform: translate(-116px, 50%);
     }
 
     .message {
