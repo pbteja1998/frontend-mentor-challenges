@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo">
+      <img src="images/logo.svg" alt="Logo" />
+    </div>
+    <div class="hero">
+      <img src="images/hero-mobile.jpg" alt="Hero Mobile" class="mobile">
+      <img src="images/hero-desktop.jpg" alt="Hero Mobile" class="desktop">
+    </div>
+    <div class="banner">
+      <h1><span class="grey">We're</span> coming soon</h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <div class="subscribe">
+        <div class="input">
+          <input id="email" class="email" type="email" placeholder="Email Address" onkeydown="submit(event)" aria-label="email" />
+          <img class="icon-arrow" src="images/icon-arrow.svg" alt="Icon Arrow" onclick="subscribe()">
+        </div>
+        <p id="error-message" class="hidden error message">Please provide a valid email</p>
+        <p id="success-message" class="hidden success message">Successfully subscribed!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
