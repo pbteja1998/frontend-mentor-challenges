@@ -11,6 +11,9 @@ const projects = [
   {
     name: 'base-apparel-coming-soon',
   },
+  {
+    name: 'article-preview-component',
+  },
 ];
 
 const list = document.getElementById('list');
@@ -34,6 +37,14 @@ projects.forEach(({ name}, i) => {
       </div>`
   list.appendChild(listItem)
 });
+
+const emptyListItem = document.createElement('li')
+list.appendChild(emptyListItem)
+list.appendChild(emptyListItem)
+list.appendChild(emptyListItem)
+list.appendChild(emptyListItem)
+list.appendChild(emptyListItem)
+list.appendChild(emptyListItem)
 
 function formatProjectName(name) {
   return name

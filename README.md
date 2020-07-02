@@ -31,14 +31,25 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
             </sub>
         </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-        <a href="./base-apparel-coming-soon">
-            <img src="./base-apparel-coming-soon/design/desktop-design.jpg" width="300px;" alt="Base Apparel Coming Soon"/>
-            <br />
-            <sub>
-                <b>Base Apparel Coming Soon</b>
-            </sub>
-        </a>
+          <a href="./base-apparel-coming-soon">
+              <img src="./base-apparel-coming-soon/design/desktop-design.jpg" width="300px;" alt="Base Apparel Coming Soon"/>
+              <br />
+              <sub>
+                  <b>Base Apparel Coming Soon</b>
+              </sub>
+          </a>
+    </td>
+    <td align="center">
+          <a href="./article-preview-component">
+              <img src="./article-preview-component/design/desktop-design.jpg" width="300px;" alt="Article Preview Component"/>
+              <br />
+              <sub>
+                  <b>Article Preview Component</b>
+              </sub>
+          </a>
     </td>
   </tr>
 </table>

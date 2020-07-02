@@ -1,0 +1,209 @@
+:root {
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+    --container-width: 730px;
+    --container-height: 280px;
+    --border-radius: 10px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Light-Grayish-Blue);
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    width: var(--container-width);
+    height: var(--container-height);
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: var(--border-radius);
+    box-shadow: 0 19px 38px -15px rgba(0,0,0,0.30);
+}
+
+.left {
+    width: calc(var(--container-height) + 5px);
+    height: 100%;
+}
+
+.left > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: 0 50%;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+
+.right {
+    width: calc(100% - calc(var(--container-height) + 5px));
+    padding: 40px;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+.subtitle {
+    color: var(--Desaturated-Dark-Blue);
+}
+
+.author {
+    display: flex;
+    margin: 20px 0;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    margin-right: 15px;
+}
+
+.avatar > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.author__name {
+    font-size: 14px;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+.article__date {
+    color: var(--Desaturated-Dark-Blue);
+}
+
+.actions {
+    margin-left: auto;
+    position: relative;
+}
+
+.share {
+    background-color: var(--Light-Grayish-Blue);
+    padding: 10px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+
+.share__options {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-43%, -150%);
+    background-color: var(--Very-Dark-Grayish-Blue);
+    width: 250px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share__options::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13.0px 7.5px 0 7.5px;
+    border-color: var(--Very-Dark-Grayish-Blue) transparent transparent transparent;
+    transform: translate(50%, 100%);
+}
+
+.share__option {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.share__title {
+    color: var(--Grayish-Blue);
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: unset;
+    }
+    .container {
+        width: 86.4%;
+        height: 77.5%;
+    }
+    .left {
+        width: 100%;
+        height: calc(100% - 61.6%);
+    }
+    .left > img {
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: 0;
+        border-top-right-radius: var(--border-radius);
+    }
+    .right {
+        width: 100%;
+        height: 61.6%;
+        padding: 25px 27px 15px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .subtitle {
+        font-size: 13px;
+    }
+    .actions {
+        position: static;
+    }
+    .right {
+        position: relative;
+    }
+    .author {
+        margin: 40px 0 0;
+    }
+    .share__options {
+        top: 100%;
+        left: 0;
+        transform: translate(0, -100%);
+        width: 100%;
+        height: 23%;
+        border-bottom-left-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+    }
+    .share__options::after {
+        display: none;
+    }
+    .share__mobile {
+        background: var(--Desaturated-Dark-Blue) url("../images/icon-share-white.svg") no-repeat center;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin-left: 45px;
+    }
+}
