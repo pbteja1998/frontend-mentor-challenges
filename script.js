@@ -14,6 +14,9 @@ const projects = [
   {
     name: 'article-preview-component',
   },
+  {
+    name: 'intro-component-with-signup-form'
+  }
 ];
 
 const list = document.getElementById('list');

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/script.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--  <style>-->
+<!--    .attribution { font-size: 11px; text-align: center; }-->
+<!--    .attribution a { color: hsl(228, 45%, 44%); }-->
+<!--  </style>-->
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <h1 class="title">Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+
+    <div class="right">
+      <button class="try-it-free-btn"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
+
+      <div class="form">
+        <div class="form-control">
+          <div class="form-input">
+            <input id="firstName" type="text" placeholder="First Name" aria-label="First Name">
+            <img id="firstNameErrorIcon" class="error-icon first-name-error-icon hidden" src="images/icon-error.svg" alt="Error Icon">
+          </div>
+          <small id="firstNameError" class="error hidden"></small>
+        </div>
+
+        <div class="form-control">
+          <div class="form-input">
+            <input id="lastName" type="text" placeholder="Last Name" aria-label="Last Name">
+            <img id="lastNameErrorIcon" class="error-icon last-name-error-icon hidden" src="images/icon-error.svg" alt="Error Icon">
+          </div>
+          <small id="lastNameError" class="error hidden"></small>
+        </div>
+
+        <div class="form-control">
+          <div class="form-input">
+            <input id="email" type="email" placeholder="Email Address" aria-label="Email Address">
+            <img id="emailErrorIcon" class="error-icon email-error-icon hidden" src="images/icon-error.svg" alt="Error Icon">
+          </div>
+          <small id="emailError" class="error hidden"></small>
+        </div>
+
+        <div class="form-control">
+          <div class="form-input">
+            <input id="password" type="password" placeholder="Password" aria-label="Password">
+            <img id="passwordErrorIcon" class="error-icon fpassword-error-icon hidden" src="images/icon-error.svg" alt="Error Icon">
+          </div>
+          <small id="passwordError" class="error hidden"></small>
+        </div>
+
+        <div class="form-control claim-your-free-trial-form-control">
+          <button id="submit" class="claim-your-free-trial">Claim your free trial</button>
+        </div>
+        <div class="text-center form-control-terms-and-conditions">
+          <small class="terms-and-conditions">By clicking the button, you are agreeing to our
+            <a href="" class="link">Terms and Services</a>
+          </small>
+        </div>
+
+        <div id="success" class="text-center success hidden">
+          <small>Free trial claimed successfully!</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--  <footer>-->
+<!--    <p class="attribution">-->
+<!--      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. -->
+<!--      Coded by <a href="#">Your Name Here</a>.-->
+<!--    </p>-->
+<!--  </footer>-->
+</body>
+</html>

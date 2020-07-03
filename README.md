@@ -51,6 +51,15 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
               </sub>
           </a>
     </td>
+    <td align="center">
+          <a href="./intro-component-with-signup-form">
+              <img src="./intro-component-with-signup-form/design/desktop-design.jpg" width="300px;" alt="Intro Component With Signup Form"/>
+              <br />
+              <sub>
+                  <b>Article Preview Component</b>
+              </sub>
+          </a>
+    </td>
   </tr>
 </table>
 
