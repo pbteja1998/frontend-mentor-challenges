@@ -61,6 +61,17 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
           </a>
     </td>
   </tr>
+  <tr>
+      <td align="center">
+            <a href="./single-price-grid-component">
+                <img src="./single-price-grid-component/design/desktop-design.jpg" width="300px;" alt="Single Price Grid Component"/>
+                <br />
+                <sub>
+                    <b>Single Price Grid Component</b>
+                </sub>
+            </a>
+      </td>
+  </tr>
 </table>
 
 You can see them live [here](https://frontend-mentor.bhanuteja.dev/)

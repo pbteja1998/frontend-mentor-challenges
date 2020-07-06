@@ -16,7 +16,10 @@ const projects = [
   },
   {
     name: 'intro-component-with-signup-form'
-  }
+  },
+  {
+    name: 'single-price-grid-component'
+  },
 ];
 
 const list = document.getElementById('list');

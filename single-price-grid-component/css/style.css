@@ -1,0 +1,56 @@
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.text-Cyan {
+    color: var(--Cyan);
+}
+
+.text-Bright-Yellow {
+    color: var(--Bright-Yellow);
+}
+
+.text-Light-Gray {
+    color: var(--Light-Gray);
+}
+
+.text-Grayish-Blue {
+    color: var(--Grayish-Blue);
+}
+
+.bg-Cyan {
+    background-color: var(--Cyan);
+}
+
+.bg-Bright-Yellow {
+    background-color: var(--Bright-Yellow);
+}
+
+.bgt-Light-Gray {
+    background-color: var(--Light-Gray);
+}
+
+.bg-Grayish-Blue {
+    background-color: var(--Grayish-Blue);
+}
+
+.opacity-90 {
+    opacity: 0.9;
+}
