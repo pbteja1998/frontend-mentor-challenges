@@ -1,0 +1,81 @@
+:root {
+    /*Primary*/
+    --Blue: hsl(223, 87%, 63%);
+
+    /*Secondary*/
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+
+    /*Neutral*/
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1.25rem;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.text-Blue {
+    color: var(--Blue);
+}
+
+.text-Pale-Blue {
+    color: var(--Pale-Blue);
+}
+
+.text-Light-Red {
+    color: var(--Light-Red);
+}
+
+.text-Gray {
+    color: var(--Gray);
+}
+
+.text-Very-Dark-Blue {
+    color: var(--Very-Dark-Blue);
+}
+
+.bg-Blue {
+    background-color: var(--Blue);
+}
+
+.bg-Pale-Blue {
+    background-color: var(--Pale-Blue);
+}
+
+.bg-Light-Red {
+    background-color: var(--Light-Red);
+}
+
+.bg-Gray {
+    background-color: var(--Gray);
+}
+
+.bg-Very-Dark-Blue {
+    background-color: var(--Very-Dark-Blue);
+}
+
+.hover\:opacity-90:hover {
+    opacity: 0.9;
+}
+
+.leading-8 {
+    line-height: 2rem !important;
+}
+
+@media (min-width: 768px) {
+    .md\:text-4\.5xl {
+        font-size: 2.5rem;
+    }
+
+}

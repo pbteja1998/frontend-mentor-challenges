@@ -20,6 +20,9 @@ const projects = [
   {
     name: 'single-price-grid-component'
   },
+  {
+    name: 'ping-coming-soon-page'
+  }
 ];
 
 const list = document.getElementById('list');

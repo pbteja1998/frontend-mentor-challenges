@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <link href="https://unpkg.com/tailwindcss@1.4.6/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/0ca913d916.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--  <style>-->
+<!--    .attribution { font-size: 11px; text-align: center; }-->
+<!--    .attribution a { color: hsl(228, 45%, 44%); }-->
+<!--  </style>-->
+</head>
+<body>
+
+  <div class="container mx-auto w-full h-ful">
+    <div class="px-5 text-center flex flex-col">
+      <div class="banner mt-24 mb-16 flex flex-col justify-center">
+        <img src="images/logo.svg" alt="Logo" class="mx-auto mb-10">
+        <h1 class="text-2xl mb-4 md:text-4.5xl"><span class="text-Gray">We are launching</span> <span class="font-bold">soon!</span></h1>
+        <p class="text-base mb-4 md:mb-10">Subscribe and get notified</p>
+        <div class="form flex flex-col justify-center md:flex-row md:w-8/12 lg:w-5/12 md:mx-auto">
+          <input id="email" class="outline-none border-2 rounded-full px-10 text-sm h-12 md:w-3/5" onkeydown="submit(event)" aria-label="email" type="email" placeholder="Your email address..." />
+          <button class="text-white bg-Blue outline-none border-none focus:outline-none hover:opacity-90 rounded-full mt-3 text-base font-semibold h-12 md:w-2/5 md:mt-0 md:px-10 md:ml-4" onclick="subscribe()">Notify Me</button>
+        </div>
+        <p id="success-message" class="px-4 text-xs mt-1 md:text-left md:w-5/12 md:mx-auto text-green-700 font-semibold hidden">Successfully Subscribed!</p>
+        <p id="error-message" class="px-4 text-xs mt-1 md:text-left md:w-5/12 md:mx-auto text-Light-Red hidden">Please provide a valid email address</p>
+      </div>
+
+      <div class="preview md:w-1/2 lg:w-2/5 md:mx-auto">
+        <img src="images/illustration-dashboard.png" alt="Illustration Dashboard" class="w-full h-full">
+      </div>
+
+      <div class="social mt-20">
+        <div class="icons flex justify-center text-sm">
+          <i class="fab fa-facebook-f mx-2 cursor-pointer border rounded-full w-8 h-8 leading-8 text-Blue hover:text-white hover:bg-blue-600"></i>
+          <i class="fab fa-twitter mx-2 cursor-pointer border rounded-full w-8 h-8 leading-8 text-Blue hover:text-white hover:bg-blue-600"></i>
+          <i class="fab fa-instagram mx-2 cursor-pointer border rounded-full w-8 h-8 leading-8 text-Blue hover:text-white hover:bg-blue-600"></i>
+        </div>
+        <p class="text-base my-10 text-Gray">&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+
+<!--  <footer>-->
+<!--    <p class="attribution">-->
+<!--      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. -->
+<!--      Coded by <a href="#">Your Name Here</a>.-->
+<!--    </p>-->
+<!--  </footer>-->
+</body>
+</html>

@@ -71,6 +71,15 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
                 </sub>
             </a>
       </td>
+      <td align="center">
+              <a href="./ping-coming-soon-page">
+                  <img src="./ping-coming-soon-page/design/desktop-design.jpg" width="300px;" alt="Ping Coming Soon Page"/>
+                  <br />
+                  <sub>
+                      <b>Ping Coming soon Page</b>
+                  </sub>
+              </a>
+        </td>
   </tr>
 </table>
 
