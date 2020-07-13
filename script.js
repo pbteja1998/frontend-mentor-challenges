@@ -22,7 +22,10 @@ const projects = [
   },
   {
     name: 'ping-coming-soon-page'
-  }
+  },
+  {
+    name: 'huddle-landing-page-with-alternating-feature-blocks'
+  },
 ];
 
 const list = document.getElementById('list');

@@ -34,31 +34,40 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
   </tr>
   <tr>
     <td align="center">
-          <a href="./base-apparel-coming-soon">
-              <img src="./base-apparel-coming-soon/design/desktop-design.jpg" width="300px;" alt="Base Apparel Coming Soon"/>
-              <br />
-              <sub>
-                  <b>Base Apparel Coming Soon</b>
-              </sub>
-          </a>
+      <a href="./base-apparel-coming-soon">
+          <img src="./base-apparel-coming-soon/design/desktop-design.jpg" width="300px;" alt="Base Apparel Coming Soon"/>
+          <br />
+          <sub>
+              <b>Base Apparel Coming Soon</b>
+          </sub>
+      </a>
     </td>
     <td align="center">
-          <a href="./article-preview-component">
-              <img src="./article-preview-component/design/desktop-design.jpg" width="300px;" alt="Article Preview Component"/>
-              <br />
-              <sub>
-                  <b>Article Preview Component</b>
-              </sub>
-          </a>
+      <a href="./article-preview-component">
+          <img src="./article-preview-component/design/desktop-design.jpg" width="300px;" alt="Article Preview Component"/>
+          <br />
+          <sub>
+              <b>Article Preview Component</b>
+          </sub>
+      </a>
     </td>
     <td align="center">
-          <a href="./intro-component-with-signup-form">
-              <img src="./intro-component-with-signup-form/design/desktop-design.jpg" width="300px;" alt="Intro Component With Signup Form"/>
-              <br />
-              <sub>
-                  <b>Article Preview Component</b>
-              </sub>
-          </a>
+      <a href="./intro-component-with-signup-form">
+          <img src="./intro-component-with-signup-form/design/desktop-design.jpg" width="300px;" alt="Intro Component With Signup Form"/>
+          <br />
+          <sub>
+              <b>Article Preview Component</b>
+          </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./huddle-landing-page-with-alternating-feature-blocks">
+          <img src="./huddle-landing-page-with-alternating-feature-blocks/design/desktop-design.jpg" width="300px;" alt="Huddle Landinng Page"/>
+          <br />
+          <sub>
+              <b>Huddle Landing Page</b>
+          </sub>
+      </a>
     </td>
   </tr>
   <tr>
@@ -72,14 +81,14 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
             </a>
       </td>
       <td align="center">
-              <a href="./ping-coming-soon-page">
-                  <img src="./ping-coming-soon-page/design/desktop-design.jpg" width="300px;" alt="Ping Coming Soon Page"/>
-                  <br />
-                  <sub>
-                      <b>Ping Coming soon Page</b>
-                  </sub>
-              </a>
-        </td>
+          <a href="./ping-coming-soon-page">
+              <img src="./ping-coming-soon-page/design/desktop-design.jpg" width="300px;" alt="Ping Coming Soon Page"/>
+              <br />
+              <sub>
+                  <b>Ping Coming soon Page</b>
+              </sub>
+          </a>
+    </td>
   </tr>
 </table>
 
