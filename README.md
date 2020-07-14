@@ -60,25 +60,16 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
           </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="./huddle-landing-page-with-alternating-feature-blocks">
-          <img src="./huddle-landing-page-with-alternating-feature-blocks/design/desktop-design.jpg" width="300px;" alt="Huddle Landinng Page"/>
-          <br />
-          <sub>
-              <b>Huddle Landing Page</b>
-          </sub>
-      </a>
-    </td>
   </tr>
   <tr>
       <td align="center">
-            <a href="./single-price-grid-component">
-                <img src="./single-price-grid-component/design/desktop-design.jpg" width="300px;" alt="Single Price Grid Component"/>
-                <br />
-                <sub>
-                    <b>Single Price Grid Component</b>
-                </sub>
-            </a>
+        <a href="./single-price-grid-component">
+            <img src="./single-price-grid-component/design/desktop-design.jpg" width="300px;" alt="Single Price Grid Component"/>
+            <br />
+            <sub>
+                <b>Single Price Grid Component</b>
+            </sub>
+        </a>
       </td>
       <td align="center">
           <a href="./ping-coming-soon-page">
@@ -88,6 +79,26 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
                   <b>Ping Coming soon Page</b>
               </sub>
           </a>
+      </td>
+    <td align="center">
+      <a href="./huddle-landing-page-with-alternating-feature-blocks">
+          <img src="./huddle-landing-page-with-alternating-feature-blocks/design/desktop-design.jpg" width="300px;" alt="Huddle Landing Page with alternating feature blocks"/>
+          <br />
+          <sub>
+              <b>Huddle Landing Page with alternating Feature Blocks</b>
+          </sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="./huddle-landing-page-with-single-introductory-section">
+          <img src="./huddle-landing-page-with-single-introductory-section/design/desktop-design.jpg" width="300px;" alt="Huddle Landing Page with single introductory section"/>
+          <br />
+          <sub>
+              <b>Huddle Landing Page with single introductory section</b>
+          </sub>
+      </a>
     </td>
   </tr>
 </table>

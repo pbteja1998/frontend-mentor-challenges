@@ -1,0 +1,140 @@
+:root {
+    --heading-font-family: 'Poppins', sans-serif;
+    --body-font-family: 'Open Sans', sans-serif;
+    --Violet: hsl(257, 40%, 49%);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--body-font-family);
+    font-weight: 400;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.container {
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: var(--Violet);
+    color: white;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 45%;
+}
+
+.mockup {
+    margin: 50px 0;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero__heading {
+    font-family: var(--heading-font-family);
+    margin: 10px;
+    font-weight: 500;
+}
+
+.hero__description {
+    font-size: 1.6rem;
+    margin: 10px 0;
+}
+
+.register {
+    margin: 10px;
+    padding: 10px 80px;
+    border-radius: 2rem;
+}
+
+.social-links {
+    margin: 20px;
+}
+
+.social-links > i {
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        background-image: url("../images/bg-desktop.svg");
+        padding: 60px 80px;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+    .logo {
+        width: 15%;
+    }
+    .mockup-and-hero {
+        display: flex;
+        justify-content: center;
+        padding: 80px 0;
+    }
+    .mockup {
+        width: 55%;
+    }
+    .hero {
+        padding-top: 10vh;
+        width: 45%;
+        text-align: left;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero__heading {
+        font-size: 4.75rem;
+        margin-left: 0;
+    }
+    .hero__description {
+        font-size: 1.9rem;
+        margin-right: 30px;
+    }
+    .register {
+        margin: 20px 0;
+        padding: 15px;
+        width: 35%;
+        border-radius: 3rem;
+        color: var(--Violet);
+        font-size: 1.8rem;
+    }
+    .social-links {
+        margin-left: auto;
+    }
+    .social-links > i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+}

@@ -26,6 +26,9 @@ const projects = [
   {
     name: 'huddle-landing-page-with-alternating-feature-blocks'
   },
+  {
+    name: 'huddle-landing-page-with-single-introductory-section'
+  },
 ];
 
 const list = document.getElementById('list');
