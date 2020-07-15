@@ -100,6 +100,15 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
           </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="./fylo-landing-page-with-two-column-layout">
+          <img src="./fylo-landing-page-with-two-column-layout/design/desktop-design.jpg" width="300px;" alt="Fylo Landing Page with two column layout"/>
+          <br />
+          <sub>
+              <b>Fylo Landing Page with Two Column Layout</b>
+          </sub>
+      </a>
+    </td>
   </tr>
 </table>
 

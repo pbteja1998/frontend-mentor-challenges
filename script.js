@@ -29,6 +29,9 @@ const projects = [
   {
     name: 'huddle-landing-page-with-single-introductory-section'
   },
+  {
+    name: 'fylo-landing-page-with-two-column-layout'
+  }
 ];
 
 const list = document.getElementById('list');
