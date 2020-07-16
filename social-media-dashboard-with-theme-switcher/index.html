@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--  <style>-->
+<!--    .attribution { font-size: 11px; text-align: center; }-->
+<!--    .attribution a { color: hsl(228, 45%, 44%); }-->
+<!--  </style>-->
+</head>
+<body>
+
+  <div class="container">
+    <div class="heading-flex">
+      <div class="heading">
+        <h1 class="title">Social Media Dashboard</h1>
+        <p class="total-followers">Total Followers: 23,004</p>
+      </div>
+
+      <hr class="underline" />
+
+      <div class="toggle" style="overflow: hidden; ">
+        <p class="dark-mode-text">
+          Dark Mode
+        </p>
+        <label class="switch">
+          <input type="checkbox" id="toggle-button" aria-label="dark-mode-switch" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="followers">
+      <div class="fb-card card">
+        <div class="username">
+          <img class="fb-icon social-icon" src="images/icon-facebook.svg" alt="Facebook Icon">
+          <p class="handle">@nathanf</p>
+        </div>
+        <div class="followers-count">
+          <span class="count">1987</span>
+          <span class="followers-text">Followers</span>
+        </div>
+        <div class="followers-change">
+          <img class="up-icon change-icon" src="images/icon-up.svg" alt="Icon Up">
+          <span class="count-increase followers-change-count">12 Today</span>
+        </div>
+      </div>
+
+      <div class="twitter-card card">
+        <div class="username">
+          <img class="twitter-icon social-icon" src="images/icon-twitter.svg" alt="Twitter Icon">
+          <p class="handle">@nathanf</p>
+        </div>
+        <div class="followers-count">
+          <span class="count">1044</span>
+          <span class="followers-text">Followers</span>
+        </div>
+        <div class="followers-change">
+          <img class="up-icon change-icon" src="images/icon-up.svg" alt="Icon Up">
+          <span class="count-increase followers-change-count">99 Today</span>
+        </div>
+      </div>
+
+      <div class="instagram-card card">
+        <div class="username">
+          <img class="instagram-icon social-icon" src="images/icon-instagram.svg" alt="Instagram Icon">
+          <p class="handle">@realnathanf</p>
+        </div>
+        <div class="followers-count">
+          <span class="count">11k</span>
+          <span class="followers-text">Followers</span>
+        </div>
+        <div class="followers-change">
+          <img class="up-icon change-icon" src="images/icon-up.svg" alt="Icon Up">
+          <span class="count-increase followers-change-count">1099 Today</span>
+        </div>
+      </div>
+
+      <div class="youtube-card card">
+        <div class="username">
+          <img class="youtube-icon social-icon" src="images/icon-youtube.svg" alt="Youtube Icon">
+          <p class="handle">Nathan F.</p>
+        </div>
+        <div class="followers-count">
+          <span class="count">8239</span>
+          <span class="followers-text">Subscribers</span>
+        </div>
+        <div class="followers-change">
+          <img class="down-icon change-icon" src="images/icon-down.svg" alt="Icon Down">
+          <span class="count-decrease followers-change-count">144 Today</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="overview">
+      <h2 class="overview-title">Overview - Today</h2>
+      <div class="overview-section">
+        <div class="overview-card">
+          <div class="overview-text">
+            <span class="overview-count-text">Page Views</span>
+            <span class="overview-count">87</span>
+          </div>
+          <div class="icon-and-change">
+            <div class="overview-icon">
+              <img class="fb-icon social-icon" src="images/icon-facebook.svg" alt="Facebook Icon">
+            </div>
+            <div>
+              <img class="icon-up change-icon" src="images/icon-up.svg" alt="Icon Up">
+              <span class="count-increase overview-count-change">3%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-text">
+            <span class="overview-count-text">Likes</span>
+            <span class="overview-count">52</span>
+          </div>
+          <div class="icon-and-change">
+            <div class="overview-icon">
+              <img class="fb-icon social-icon" src="images/icon-facebook.svg" alt="Facebook Icon">
+            </div>
+            <div>
+              <img class="icon-up change-icon" src="images/icon-up.svg" alt="Icon Up">
+              <span class="count-increase overview-count-change">2%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-text">
+            <span class="overview-count-text">Likes</span>
+            <span class="overview-count">5462</span>
+          </div>
+          <div class="icon-and-change">
+            <div class="overview-icon">
+              <img class="instagram-icon social-icon" src="images/icon-instagram.svg" alt="Instagram Icon">
+            </div>
+            <div>
+              <img class="icon-up change-icon" src="images/icon-up.svg" alt="Icon Up">
+              <span class="count-increase overview-count-change">2257%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-text">
+            <span class="overview-count-text">Profile Views</span>
+            <span class="overview-count">52k</span>
+          </div>
+          <div class="icon-and-change">
+            <div class="overview-icon">
+              <img class="instagram-icon social-icon" src="images/icon-instagram.svg" alt="Instagram Icon">
+            </div>
+            <div>
+              <img class="icon-up change-icon" src="images/icon-up.svg" alt="Icon Up">
+              <span class="count-increase overview-count-change">1375%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-text">
+            <span class="overview-count-text">Retweets</span>
+            <span class="overview-count">117</span>
+          </div>
+          <div class="icon-and-change">
+            <div class="overview-icon">
+              <img class="twitter-icon social-icon" src="images/icon-twitter.svg" alt="Twitter Icon">
+            </div>
+            <div>
+              <img class="icon-up change-icon" src="images/icon-up.svg" alt="Icon Up">
+              <span class="count-increase overview-count-change">303%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-text">
+            <span class="overview-count-text">Likes</span>
+            <span class="overview-count">507</span>
+          </div>
+          <div class="icon-and-change">
+            <div class="overview-icon">
+              <img class="twitter-icon social-icon" src="images/icon-twitter.svg" alt="Twitter Icon">
+            </div>
+            <div>
+              <img class="icon-up change-icon" src="images/icon-up.svg" alt="Icon Up">
+              <span class="count-increase overview-count-change">553%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-text">
+            <span class="overview-count-text">Likes</span>
+            <span class="overview-count">107</span>
+          </div>
+          <div class="icon-and-change">
+            <div class="overview-icon">
+              <img class="youtube-icon social-icon" src="images/icon-youtube.svg" alt="Youtube Icon">
+            </div>
+            <div>
+              <img class="icon-down change-icon" src="images/icon-down.svg" alt="Icon Down">
+              <span class="count-decrease overview-count-change">19%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-text">
+            <span class="overview-count-text">Total Views</span>
+            <span class="overview-count">1407</span>
+          </div>
+          <div class="icon-and-change">
+            <div class="overview-icon">
+              <img class="youtube-icon social-icon" src="images/icon-youtube.svg" alt="Youtube Icon">
+            </div>
+            <div>
+              <img class="icon-down change-icon" src="images/icon-down.svg" alt="Icon Down">
+              <span class="count-decrease overview-count-change">12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+<!--  <div class="attribution">-->
+<!--    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. -->
+<!--    Coded by <a href="#">Your Name Here</a>.-->
+<!--  </div>-->
+</body>
+</html>

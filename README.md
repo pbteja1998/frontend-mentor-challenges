@@ -109,6 +109,15 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
           </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="./social-media-dashboard-with-theme-switcher">
+          <img src="./social-media-dashboard-with-theme-switcher/design/desktop-design.jpg" width="300px;" alt="Social Media Dashboard with theme switcher"/>
+          <br />
+          <sub>
+              <b>Social Media Dashboard with theme switcher</b>
+          </sub>
+      </a>
+    </td>
   </tr>
 </table>
 

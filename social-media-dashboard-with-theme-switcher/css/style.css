@@ -1,0 +1,351 @@
+:root {
+    --BG: hsl(0, 0%, 100%);
+    --Top-BG-Pattern: hsl(225, 100%, 98%);
+    --Card-BG: hsl(227, 47%, 96%);
+    --Card-BG-Hover: hsl(232, 33%, 91%);
+    --Normal-Text: hsl(228, 12%, 44%);
+    --Heading-Text: hsl(230, 17%, 14%);
+    --Main-Card-Border-Width: 3px;
+    --Facebook-Color: #178FF5;
+    --Twitter-Color: #1DA1F2;
+    --Instagram-Color: hsl(22, 88%, 71%);
+    --Instagram-Linear-Gradient: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    --Youtube-Color: #C4032B;
+    --Border-Radius: 5px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: var(--Normal-Text);
+}
+
+.container {
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(to bottom, var(--Top-BG-Pattern) 10%, var(--BG) 0%);
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: var(--Normal-Text);
+}
+
+.heading {
+    margin: 10px 0;
+}
+
+.title {
+    font-size: 2.2rem;
+    color: var(--Heading-Text);
+}
+
+.total-followers {
+    font-size: 1.4rem;
+}
+
+.underline {
+
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.dark-mode-text {
+    color: var(--Normal-Text);
+    margin-right: 10px;
+}
+
+.switch {
+    margin-left: auto;
+}
+
+.followers {
+    margin-bottom: 30px;
+}
+
+.card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--Card-BG);
+    margin: 20px 0;
+    text-align: center;
+    padding: 25px;
+    border-radius: var(--Border-Radius);
+}
+
+.card:hover {
+    background-color: var(--Card-BG-Hover);
+}
+
+.fb-card {
+    border-top: var(--Main-Card-Border-Width) solid var(--Facebook-Color);
+}
+
+.twitter-card {
+    border-top: var(--Main-Card-Border-Width) solid var(--Twitter-Color);
+}
+
+.instagram-card {
+    /*border-top: var(--Main-Card-Border-Width) solid var(--Instagram-Color);*/
+    position: relative;
+}
+
+.instagram-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--Main-Card-Border-Width);
+    background-image: var(--Instagram-Linear-Gradient);
+    background-color: var(--Instagram-Color);
+    border-top-left-radius: var(--Border-Radius);
+    border-top-right-radius: var(--Border-Radius);
+}
+
+.youtube-card {
+    border-top: var(--Main-Card-Border-Width) solid var(--Youtube-Color);
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    margin: 5px;
+}
+
+.handle {
+    margin: 5px;
+}
+
+.followers-count {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.count {
+    font-size: 5rem;
+    color: var(--Heading-Text);
+    font-weight: 700;
+}
+
+.followers-text {
+    text-transform: uppercase;
+    color: var(--Normal-Text);
+    letter-spacing: 4px;
+    font-size: 1.4rem;
+}
+
+.followers-change {
+
+}
+
+.change-icon {
+
+}
+
+.up-icon {
+
+}
+
+.down-icon {
+
+}
+
+.followers-change-count {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.count-increase {
+    color: green;
+}
+
+.count-decrease {
+    color: red;
+}
+
+.overview {
+
+}
+
+.overview-title {
+    color: var(--Heading-Text);
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.overview-section {
+
+}
+
+.overview-card {
+    cursor: pointer;
+    display: flex;
+    background-color: var(--Card-BG);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: var(--Border-Radius);
+}
+
+.overview-card:hover {
+    background-color: var(--Card-BG-Hover);
+}
+
+.overview-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-count-text {
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.overview-count {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--Heading-Text);
+}
+
+.icon-and-change {
+    margin-left: auto;
+}
+
+.overview-icon {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.overview-count-change {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 769px) {
+    .title {
+        font-size: 2.8rem;
+    }
+    .total-followers {
+        font-size: 1.6rem;
+    }
+
+    .container {
+        padding: 3% 10%;
+        background: linear-gradient(to bottom, var(--Top-BG-Pattern) 30%, var(--BG) 0%);
+    }
+    .heading-flex {
+        display: flex;
+    }
+    .underline {
+        display: none;
+    }
+    .toggle {
+        margin-left: auto;
+    }
+    .followers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card {
+        width: 24%;
+    }
+    .overview-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .overview-card {
+        width: 24%;
+    }
+}
+
+.switch {
+    transform: rotate(180deg);
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:hover + .slider {
+    background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+input:checked + .slider {
+    background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    background-color: hsl(230, 17%, 14%);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+

@@ -31,6 +31,9 @@ const projects = [
   },
   {
     name: 'fylo-landing-page-with-two-column-layout'
+  },
+  {
+    name: 'social-media-dashboard-with-theme-switcher'
   }
 ];
 
