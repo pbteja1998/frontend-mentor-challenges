@@ -61,10 +61,6 @@ hr {
     font-size: 1.4rem;
 }
 
-.underline {
-
-}
-
 .toggle {
     display: flex;
     align-items: center;
@@ -85,12 +81,13 @@ hr {
 }
 
 .card {
+    max-width: 400px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: var(--Card-BG);
-    margin: 20px 0;
+    margin: 20px auto;
     text-align: center;
     padding: 25px;
     border-radius: var(--Border-Radius);
@@ -162,22 +159,6 @@ hr {
     font-size: 1.4rem;
 }
 
-.followers-change {
-
-}
-
-.change-icon {
-
-}
-
-.up-icon {
-
-}
-
-.down-icon {
-
-}
-
 .followers-change-count {
     font-size: 1.1rem;
     font-weight: 700;
@@ -191,25 +172,18 @@ hr {
     color: red;
 }
 
-.overview {
-
-}
-
 .overview-title {
     color: var(--Heading-Text);
     font-weight: 400;
     margin: 10px 0;
 }
 
-.overview-section {
-
-}
-
 .overview-card {
+    max-width: 400px;
     cursor: pointer;
     display: flex;
     background-color: var(--Card-BG);
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 20px;
     border-radius: var(--Border-Radius);
 }
@@ -257,7 +231,7 @@ hr {
 
     .container {
         padding: 3% 10%;
-        background: linear-gradient(to bottom, var(--Top-BG-Pattern) 30%, var(--BG) 0%);
+        background: linear-gradient(to bottom, var(--Top-BG-Pattern) 20%, var(--BG) 0%);
     }
     .heading-flex {
         display: flex;
@@ -268,22 +242,28 @@ hr {
     .toggle {
         margin-left: auto;
     }
-    .followers {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .followers, .overview-section {
+        display: grid;
+        grid-gap: 1.75vw;
+        grid-row-gap: 1.4vw;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
-    .card {
-        width: 24%;
+    .card, .overview-card {
+        margin: 0;
     }
+}
+
+@media screen and (min-width: 1081px) {
+    .container {
+        padding: 3% 10%;
+        background: linear-gradient(to bottom, var(--Top-BG-Pattern) 27%, var(--BG) 0%);
+    }
+}
+
+@media screen and (min-width: 1370px) {
     .overview-section {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .overview-card {
-        width: 24%;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
     }
 }
 
