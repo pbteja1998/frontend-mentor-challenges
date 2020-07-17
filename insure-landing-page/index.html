@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Insure landing page</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--  <style>-->
+<!--    .attribution { font-size: 11px; text-align: center; }-->
+<!--    .attribution a { color: hsl(228, 45%, 44%); }-->
+<!--  </style>-->
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a class="logo" href="">
+        <img src="images/logo.svg" alt="Logo" />
+      </a>
+      <div class="hidden-mobile">
+        <a class="nav-link" href="">How we work</a>
+        <a class="nav-link" href="">Blog</a>
+        <a class="nav-link" href="">Account</a>
+        <a class="nav-link nav-button" href="">View plans</a>
+      </div>
+
+      <a id="hamburger-link" class="hamburger" href="">
+        <img id="hamburger" class="hamburger-image" src="images/icon-hamburger.svg" alt="Hamburger Icon">
+      </a>
+    </nav>
+  </header>
+
+  <div id="mobile-nav" class="mobile-nav hidden">
+    <a class="mobile-nav-link" href="">How we work</a>
+    <a class="mobile-nav-link" href="">Blog</a>
+    <a class="mobile-nav-link" href="">Account</a>
+    <a class="mobile-nav-link nav-button" href="">View plans</a>
+  </div>
+
+  <div id="container" class="container">
+    <div class="intro-image">
+      <img src="images/image-intro-mobile.jpg" alt="">
+    </div>
+    <div class="intro">
+      <h1 class="intro-title">Humanizing your&nbsp;insurance.</h1>
+      <p class="intro-description">
+        Get your life insurance coverage easier and faster. We blend our expertise
+        and technology to help you find the plan that’s right for you. Ensure you
+        and your loved ones are protected.
+      </p>
+      <button class="intro-button">View plans</button>
+    </div>
+
+<!--    <img class="desktop" src="images/image-intro-desktop.jpg" alt="" />-->
+
+    <div class="features-section">
+      <h2 class="features-section-title">We’re different</h2>
+
+      <div class="features">
+        <div class="feature">
+          <img class="feature-image" src="images/icon-snappy-process.svg" alt="icon-snappy-process" />
+          <h3 class="feature-title">Snappy Process</h3>
+          <p class="feature-description">
+            Our application process can be completed in minutes, not hours. Don’t get
+            stuck filling in tedious forms.
+          </p>
+        </div>
+
+        <div class="feature">
+          <img class="feature-image" src="images/icon-affordable-prices.svg" alt="icon-affordable-prices" />
+          <h3 class="feature-title">Affordable Prices</h3>
+          <p class="feature-description">
+            We don’t want you worrying about high monthly costs. Our prices may be low,
+            but we still offer the best coverage possible.
+          </p>
+        </div>
+
+        <div class="feature">
+          <img class="feature-image" src="images/icon-people-first.svg" alt="icon-people-first" />
+          <h3 class="feature-title">People First</h3>
+          <p class="feature-description">
+            Our plans aren’t full of conditions and clauses to prevent payouts. We make
+            sure you’re covered when you need it.
+          </p>
+        </div>
+      </div>
+
+      <div class="outro">
+        <h2 class="outro-title">Find out more about how we work</h2>
+        <button class="outro-button">How we work</button>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer" class="footer">
+    <div class="footer-logo-with-social-links">
+      <img class="footer-logo" src="images/logo.svg" alt="Logo">
+      <div class="social-links">
+        <span class="social-link fb-icon"></span>
+        <span class="social-link twitter-icon"></span>
+        <span class="social-link pinterest-icon"></span>
+        <span class="social-link instagram-icon"></span>
+<!--        <img src="images/icon-facebook.svg" alt="Facebook">-->
+<!--        <img src="images/icon-twitter.svg" alt="Twitter">-->
+<!--        <img src="images/icon-pinterest.svg" alt="Pinterest">-->
+<!--        <img src="images/icon-instagram.svg" alt="Instagram">-->
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="footer-nav-sections">
+      <div class="footer-nav-section">
+        <h4 class="footer-nav-section-header">Our company</h4>
+        <span class="footer-nav-link">How we work</span>
+        <span class="footer-nav-link">Why Insure?</span>
+        <span class="footer-nav-link">View plans</span>
+        <span class="footer-nav-link">Reviews</span>
+      </div>
+
+      <div class="footer-nav-section">
+        <h4 class="footer-nav-section-header">Help me</h4>
+        <span class="footer-nav-link">FAQ</span>
+        <span class="footer-nav-link">Terms of use</span>
+        <span class="footer-nav-link">Privacy policy</span>
+        <span class="footer-nav-link">Cookies</span>
+      </div>
+
+      <div class="footer-nav-section">
+        <h4 class="footer-nav-section-header">Contact</h4>
+        <span class="footer-nav-link">Sales</span>
+        <span class="footer-nav-link">Support</span>
+        <span class="footer-nav-link">Live chat</span>
+      </div>
+
+      <div class="footer-nav-section">
+        <h4 class="footer-nav-section-header">Others</h4>
+        <span class="footer-nav-link">Careers</span>
+        <span class="footer-nav-link">Press</span>
+        <span class="footer-nav-link">Licenses</span>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+  <script src="js/app.js"></script>
+<!--  <div class="attribution">-->
+<!--    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. -->
+<!--    Coded by <a href="#">Your Name Here</a>.-->
+<!--  </div>-->
+</body>
+</html>

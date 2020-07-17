@@ -34,6 +34,9 @@ const projects = [
   },
   {
     name: 'social-media-dashboard-with-theme-switcher'
+  },
+  {
+    name: 'insure-landing-page'
   }
 ];
 
