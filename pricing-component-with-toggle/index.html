@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@1.4.6/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--  <style>-->
+<!--    .attribution { font-size: 11px; text-align: center; }-->
+<!--    .attribution a { color: hsl(228, 45%, 44%); }-->
+<!--  </style>-->
+</head>
+<body>
+
+  <div class="container mx-auto text-center px-12 pt-16 w-full h-full">
+    <div>
+      <h1 class="text-5xl text-Dark-Grayish-Blue py-10">Our Pricing</h1>
+      <div class="flex justify-center">
+        <p class="text-Light-Grayish-Blue">Annually</p>
+        <label class="switch mx-10">
+          <input type="checkbox" id="toggle-button" aria-label="price-switch" checked>
+          <span class="slider round"></span>
+        </label>
+        <p class="text-Light-Grayish-Blue">Monthly</p>
+      </div>
+    </div>
+
+    <div class="my-16 md:flex md:justify-center items-center w-full flex-wrap">
+      <div class="flex flex-col justify-center mx-auto w-35rem max-w-full h-45.5rem bg-white shadow-xl py-6 px-10 my-8 text-2xl text-Grayish-Blue rounded-custom md:mx-0 md:max-w-1/3">
+        <h3 class="text-3xl">Basic</h3>
+        <p class="text-8xl text-Dark-Grayish-Blue month">&dollar;19.99</p>
+        <p class="text-8xl text-Dark-Grayish-Blue annual">&dollar;199.99</p>
+        <p class="border-t-2 border-b-2 py-6">500 GB Storage</p>
+        <p class="border-b-2 py-6">2 Users Allowed</p>
+        <p class="border-b-2 py-6">Send up to 3 GB</p>
+        <button class="rounded-lg normal-button bg-Linear-Gradient-X-Blue text-white p-4 mb-4 mt-12 w-full uppercase text-xl tracking-widest">
+          Learn More
+        </button>
+      </div>
+
+      <div class="flex flex-col justify-center mx-auto w-35rem max-w-full h-50rem bg-Linear-Gradient-Y-Blue shadow-xl py-6 px-10 my-8 text-2xl text-Very-Light-Grayish-Blue rounded-custom md:mx-0 md:max-w-1/3">
+        <h3 class="text-3xl">Professional</h3>
+        <p class="text-8xl text-white month">&dollar;24.99</p>
+        <p class="text-8xl text-white annual">&dollar;249.99</p>
+        <p class="border-t-1 border-b-1 py-6">1 TB Storage</p>
+        <p class="border-b-1 py-6">5 Users Allowed</p>
+        <p class="border-b-1 py-6">Send up to 10 GB</p>
+        <button class="rounded-lg pro-button bg-Very-Light-Grayish-Blue text-Linear-Gradient-Blue p-4 mb-4 mt-12 w-full uppercase text-xl tracking-widest">
+          Learn More
+        </button>
+      </div>
+
+      <div class="flex flex-col justify-center mx-auto w-35rem max-w-full h-45.5rem bg-white shadow-xl py-6 px-10 my-8 text-2xl text-Grayish-Blue rounded-custom md:mx-0 md:max-w-1/3">
+        <h3 class="text-3xl">Master</h3>
+        <p class="text-8xl text-Dark-Grayish-Blue month">&dollar;39.99</p>
+        <p class="text-8xl text-Dark-Grayish-Blue annual">&dollar;399.99</p>
+        <p class="border-t-2 border-b-2 py-6">2 TB Storage</p>
+        <p class="border-b-2 py-6">10 Users Allowed</p>
+        <p class="border-b-2 py-6">Send up to 20 GB</p>
+        <button class="rounded-lg normal-button bg-Linear-Gradient-X-Blue text-white p-4 mb-4 mt-12 w-full uppercase text-xl tracking-widest">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+<!--  <div class="attribution">-->
+<!--    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. -->
+<!--    Coded by <a href="#">Your Name Here</a>.-->
+<!--  </div>-->
+</body>
+</html>

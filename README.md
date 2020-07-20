@@ -119,6 +119,17 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
       </a>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <a href="./pricing-component-with-toggle">
+          <img src="./pricing-component-with-toggle/design/desktop-design.jpg" width="300px;" alt="Pricing Component with Toggle"/>
+          <br />
+          <sub>
+              <b>Pricing Component With Toggle</b>
+          </sub>
+      </a>
+    </td>
+  </tr>
 </table>
 
 You can see them live [here](https://frontend-mentor.bhanuteja.dev/)

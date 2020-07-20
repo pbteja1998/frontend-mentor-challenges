@@ -1,0 +1,188 @@
+:root {
+    --Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+    --Light-Grayish-Blue: hsl(234, 14%, 74%);
+    --Grayish-Blue: hsl(233, 13%, 49%);
+    --Dark-Grayish-Blue: hsl(232, 13%, 33%);
+    --Linear-Gradient-Blue: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--Very-Light-Grayish-Blue);
+    background-image: url("../images/bg-top.svg");
+    background-position: 200px 0;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+        background-position: top right, bottom left;
+        background-repeat: no-repeat;
+    }
+}
+
+.text-Very-Light-Grayish-Blue {
+    color: var(--Very-Light-Grayish-Blue);
+}
+
+.text-Light-Grayish-Blue {
+    color: var(--Light-Grayish-Blue);
+}
+
+.text-Grayish-Blue {
+    color: var(--Grayish-Blue);
+}
+
+.text-Dark-Grayish-Blue {
+    color: var(--Dark-Grayish-Blue);
+}
+
+.bg-Very-Light-Grayish-Blue {
+    background-color: var(--Very-Light-Grayish-Blue);
+}
+
+.bg-Light-Grayish-Blue {
+    background-color: var(--Light-Grayish-Blue);
+}
+
+.bg-Grayish-Blue {
+    background-color: var(--Grayish-Blue);
+}
+
+.bg-Dark-Grayish-Blue {
+    background-color: var(--Dark-Grayish-Blue);
+}
+
+.bg-Linear-Gradient-X-Blue {
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));;
+}
+
+.bg-Linear-Gradient-Y-Blue {
+    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));;
+}
+
+.hover\:bg-white:hover {
+    background: white;
+}
+
+.text-7xl {
+    font-size: 5rem;
+}
+
+.text-8xl {
+    font-size: 6rem;
+}
+
+.text-Linear-Gradient-Blue {
+    color: hsl(237, 63%, 64%);
+}
+
+.rounded-custom {
+    border-radius: 1rem;
+}
+
+.w-35rem {
+    width: 35rem;
+}
+
+.h-45\.5rem {
+    height: 45.5rem;
+}
+
+.h-50rem {
+    height: 50rem;
+}
+
+.border-t-1 {
+    border-top: 1px solid var(--Light-Grayish-Blue);
+}
+
+.border-b-1 {
+    border-bottom: 1px solid var(--Light-Grayish-Blue);
+}
+
+button:hover {
+    background: transparent;
+}
+
+.normal-button:hover {
+    color: hsl(237, 63%, 64%);
+    border: 1px solid var(--Dark-Grayish-Blue);
+}
+
+.pro-button:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--Linear-Gradient-Blue);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:hover + .slider {
+    opacity: 0.6;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    background-color: white;
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

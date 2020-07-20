@@ -37,7 +37,10 @@ const projects = [
   },
   {
     name: 'insure-landing-page'
-  }
+  },
+  {
+    name: 'pricing-component-with-toggle'
+  },
 ];
 
 const list = document.getElementById('list');
