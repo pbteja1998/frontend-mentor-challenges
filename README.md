@@ -129,6 +129,15 @@ My submissions for some of the [frontend mentor challenges](https://www.frontend
           </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="./project-tracking-intro-component">
+          <img src="./project-tracking-intro-component/design/desktop-design.jpg" width="300px;" alt="Project Tracking Intro Component"/>
+          <br />
+          <sub>
+              <b>Project Tracking Intro Component</b>
+          </sub>
+      </a>
+    </td>
   </tr>
 </table>
 

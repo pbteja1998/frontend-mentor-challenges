@@ -1,0 +1,110 @@
+:root {
+    --heading-font-family: 'Barlow Condensed', sans-serif;
+    --body-font-family: 'Barlow', sans-serif;
+    --Red: hsl(0, 100%, 68%);
+    --Very-Dark-Blue: hsl(230, 29%, 20%);
+    --Dark-Grayish-Blue: hsl(230, 11%, 40%);
+    --Grayish-Blue: hsl(231, 7%, 65%);
+    --Light-Grayish-Blue: hsl(207, 33%, 95%);
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: var(--body-font-family);
+    font-weight: 400;
+}
+
+.custom-container {
+    position: relative;
+}
+
+.custom-container::after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    top: 0;
+    right: 0;
+    background-color: var(--Light-Grayish-Blue);
+    z-index: -1;
+    border-bottom-left-radius: 10rem;
+}
+
+.heading-font {
+    font-family: var(--heading-font-family);
+}
+.bg-Red {
+    background-color: var(--Red);
+}
+.bg-Very-Dark-Blue {
+    background-color: var(--Very-Dark-Blue);
+}
+.bg-Dark-Grayish-Blue {
+    background-color: var(--Dark-Grayish-Blue);
+}
+.bg-Grayish-Blue {
+    background-color: var(--Grayish-Blue);
+}
+.bg-Light-Grayish-Blue {
+    background-color: var(--Light-Grayish-Blue);
+}
+.text-Red {
+    color: var(--Red);
+}
+.text-Very-Dark-Blue {
+    color: var(--Very-Dark-Blue);
+}
+.text-Dark-Grayish-Blue {
+    color: var(--Dark-Grayish-Blue);
+}
+.text-Grayish-Blue {
+    color: var(--Grayish-Blue);
+}
+.text-Light-Grayish-Blue {
+    color: var(--Light-Grayish-Blue);
+}
+.z-1 {
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .illustration-image {
+        transform: scale(1.5);
+        transform-origin: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .illustration-image {
+        transform-origin: left;
+        transform: scale(1.5);
+        /*transform: translateX(25%);*/
+    }
+    .md\:text-7xl {
+        font-size: 5.5rem;
+    }
+    .md\:text-8xl {
+        font-size: 7rem;
+    }
+    .md\:tracking-widest-2 {
+        letter-spacing: 0.2em;
+    }
+    .md\:tracking-widest-3 {
+        letter-spacing: 0.3em;
+    }
+}

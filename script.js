@@ -41,6 +41,9 @@ const projects = [
   {
     name: 'pricing-component-with-toggle'
   },
+  {
+    name: 'project-tracking-intro-component'
+  },
 ];
 
 const list = document.getElementById('list');
