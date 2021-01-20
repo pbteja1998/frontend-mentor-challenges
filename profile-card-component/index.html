@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./compiled.css">
+</head>
+<body class="text-lg bg-dark-cyan relative">
+  <div class="flex justify-center items-center h-screen">
+    <div class="w-81.5 h-93.5 flex flex-col rounded-2xl overflow-hidden">
+
+      <div class="h-2/5">
+        <img src="./images/bg-pattern-card.svg" class="w-full h-full" alt="" />
+      </div>
+      
+      <div class="bg-white flex-1 flex flex-col">
+
+        <div class="h-2/3 flex items-center flex-col">
+          <div class="transform -translate-y-1/2 ring-5 ring-white w-24 h-24 rounded-full overflow-hidden">
+            <img src="./images/image-victor.jpg" alt="">
+          </div>
+          <div class="flex flex-col items-center -mt-6">
+            <div class="flex space-x-2">
+              <h2 class="text-xl font-bold text-very-dark-desaturted-blue">Victor Crest</h2>
+              <p class="text-dark-grayish-blue">26</p>
+            </div>
+            <div class="mt-2">
+              <p class="text-dark-grayish-blue text-sm">London</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="h-1/3 border-t border-light-gray flex justify-around items-center">
+          <div class="flex flex-col items-center justify-center">
+            <p class="font-bold text-very-dark-desaturted-blue">80K</p>
+            <p class="text-xxs text-dark-grayish-blue">Followers</p>
+          </div>
+
+          <div class="flex flex-col items-center justify-center">
+            <p class="font-bold text-very-dark-desaturted-blue">803K</p>
+            <p class="text-xxs text-dark-grayish-blue">Likes</p>
+          </div>
+
+          <div class="flex flex-col items-center justify-center">
+            <p class="font-bold text-very-dark-desaturted-blue">1.4K</p>
+            <p class="text-xxs text-dark-grayish-blue">Photos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

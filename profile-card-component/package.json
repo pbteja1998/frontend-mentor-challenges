@@ -1,0 +1,21 @@
+{
+  "name": "profile-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles.css -o compiled.css",
+    "build:purge": "NODE_ENV=production postcss styles.css -o compiled.css"
+  },
+  "keywords": [],
+  "author": "Bhanu Teja P",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}

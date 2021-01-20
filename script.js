@@ -59,6 +59,9 @@ const projects = [
     previewUrl: 'https://jobs.bhanuteja.dev/',
     githubSrc: 'https://github.com/pbteja1998/github-jobs-api',
   },
+  {
+    name: 'profile-card-component',
+  },
 ]
 
 const list = document.getElementById('list')
