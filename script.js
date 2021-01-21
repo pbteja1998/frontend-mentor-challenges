@@ -62,6 +62,9 @@ const projects = [
   {
     name: 'profile-card-component',
   },
+  {
+    name: 'social-proof-section',
+  },
 ]
 
 const list = document.getElementById('list')
