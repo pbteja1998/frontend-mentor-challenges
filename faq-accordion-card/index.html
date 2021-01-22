@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./compiled.css">
+</head>
+<body class="text-xs bg-gradient-to-b from-soft-violet to-soft-blue min-h-screen flex justify-center items-center px-6 py-28">
+  
+  <div class="md:relative w-full px-6 flex flex-col md:flex-row bg-white rounded-3xl md:max-w-4xl h-full md:h-160">
+
+    <div class="absolute top-1/2 -left-24 transform -translate-y-6 z-10">
+      <img src="./images/illustration-box-desktop.svg" alt="illustration-box-desktop" class="hidden md:block">
+    </div>
+
+    <div class="md:absolute transform -translate-y-26 md:-translate-y-1/2 md:-translate-x-0 md:top-1/2 md:-left-20">
+      <img src="./images/illustration-woman-online-mobile.svg" alt="illustration-woman-online" class="block md:hidden" />
+      <img src="./images/illustration-woman-online-desktop.svg" alt="illustration-woman-online" class="hidden md:block" />
+    </div>
+
+    <div class="transform -translate-y-26 md:translate-y-0 mt-15 md:mb-20 flex flex-col justify-center md:ml-118">
+
+      <h1 class="text-3.5xl font-bold text-center md:text-left">FAQ</h1>
+
+      <div class="mt-9.5 space-y-4">
+
+        <details class="pb-5 border-b md:w-80 hover:cursor-pointer">
+          <summary class="flex justify-between items-center text-summary md:text-sm font-normal text-very-dark-grayish-blue hover:text-soft-red">How many team members can I invite?</summary>
+          <p class="text-dark-grayish-blue text-xs font-normal">You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.</p>
+        </details>
+    
+        <details class="pb-5 border-b md:w-80 hover:cursor-pointer">
+          <summary class="flex justify-between items-center text-summary md:text-sm font-normal text-very-dark-grayish-blue hover:text-soft-red">What is the maximum file upload size?</summary>
+          <p class="text-dark-grayish-blue text-xs font-normal">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </details>
+    
+        <details class="pb-5 border-b md:w-80 hover:cursor-pointer">
+          <summary class="flex justify-between items-center text-summary md:text-sm font-normal text-very-dark-grayish-blue hover:text-soft-red">How do I reset my password?</summary>
+          <p class="text-dark-grayish-blue text-xs font-normal">Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+        </details>
+    
+        <details class="pb-5 border-b md:w-80 hover:cursor-pointer">
+          <summary class="flex justify-between items-center text-summary md:text-sm font-normal text-very-dark-grayish-blue hover:text-soft-red">Can I cancel my subscription?</summary>
+          <p class="text-dark-grayish-blue text-xs font-normal">Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </details>
+        
+        <details class="pb-5 border-b md:w-80 hover:cursor-pointer">
+          <summary class="flex justify-between items-center text-summary md:text-sm font-normal text-very-dark-grayish-blue hover:text-soft-red">Do you provide additional support?</summary>
+          <p class="text-dark-grayish-blue text-xs font-normal">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </details>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

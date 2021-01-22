@@ -65,6 +65,9 @@ const projects = [
   {
     name: 'social-proof-section',
   },
+  {
+    name: 'faq-accordion-card',
+  },
 ]
 
 const list = document.getElementById('list')

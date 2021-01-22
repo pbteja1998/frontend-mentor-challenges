@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::after {
+  content: url(./images/icon-arrow-down.svg);
+  @apply ml-0.5;
+}
+
+details[open] > summary::after {
+  content: url(./images/icon-arrow-down.svg);
+  @apply transform rotate-180 origin-center -translate-y-1;
+}
+
+details[open] > summary {
+  @apply font-bold text-very-dark-desaturated-blue hover:text-very-dark-desaturated-blue;
+}
