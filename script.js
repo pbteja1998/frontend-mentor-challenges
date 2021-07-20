@@ -89,16 +89,16 @@ projects.forEach(({ name, external, imageSrc, previewUrl, githubSrc }, i) => {
   }
 
   listItem.innerHTML = `
-      <a href="${previewLink}">
+      <a href="${previewLink}" target="_blank" rel="noopener noreferrer">
         <img src="${imgLink}" alt="${name}" />
         <p>${i + 1}. ${formatProjectName(name)}</p>
       </a>
       
       <div class="links-container">
-        <a href="${previewLink}" class="blue">
+        <a href="${previewLink}" class="blue" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-eye"></i>
         </a>
-        <a href="${githubLink}" class="blue">
+        <a href="${githubLink}" class="blue" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-code"></i>
         </a>
       </div>`
